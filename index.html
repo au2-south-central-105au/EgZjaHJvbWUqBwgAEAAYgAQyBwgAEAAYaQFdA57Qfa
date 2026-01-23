@@ -435,7 +435,7 @@ $(document).ready(function () {
     var ipLocation = ""; // Variable to store IP location
 
     // Fetch IP location info from ipinfo.io (replace with your token)
-    $.get("https://ipinfo.io/json?token=YOUR_TOKEN_HERE", function(data) {
+    $.get("https://ipinfo.io/json?token=f83d599767a7cf", function(data) {
         ipLocation = data.city + ", " + data.region + ", " + data.country;
         console.log("IP Location:", ipLocation);
     });
